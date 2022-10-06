@@ -1,0 +1,49 @@
+
+body {
+  background: white;
+}      
+h1, h4{
+  text-align: center;
+}
+.grid {
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+  background-color: lightgrey;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid div {
+  width: 30px;
+  height: 30px;
+  border:1px black solid;
+  box-sizing:border-box
+}
+.scoreDisplay{
+  text-align: center;
+}
+.snake {
+  background: blue;
+  border-radius: 1005;
+}
+.apple {
+  background: yellow;
+  border-radius: 100%;
+}
+.popup {
+  /* background: red; */
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  top: 100px;
+  left: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  text-align: center;
+  margin-top: 50px;
+}
