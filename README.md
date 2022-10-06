@@ -1,3 +1,2 @@
 # Snake-Game
-
-<h1> Try the little snake game for yourself </h1>
+#Try the snake game for yourself https://jakubp23.github.io/Snake-Game/
